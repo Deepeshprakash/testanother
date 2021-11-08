@@ -13,8 +13,9 @@ import os
 
 from keras.preprocessing.image import load_img
 from keras.preprocessing.image import img_to_array
-from keras.models import load_model
+#from keras.models import load_model
 
+from tensorflow.keras.models import load_model
 # Load your trained model
 model = load_model('model/model_simple1.h5')
 print('@@ Model loaded')
